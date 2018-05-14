@@ -11,6 +11,12 @@
   "scripts": {
     "postdeploy": "bundle exec rake db:seed"
   },
+  "env": {
+    "DEVISE_SECRET_KEY": {
+      "description": "Devise uses this key to generate random tokens. Changing this key will render invalid all existing confirmation, reset password and unlock tokens in the database.",
+      "generator": "secret"
+    }
+  },
   "addons": [
     "heroku-postgresql"
   ],
