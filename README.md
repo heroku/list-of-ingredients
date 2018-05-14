@@ -1,8 +1,8 @@
 # List of Ingredients
 
-This repo serves as a companion to the tutorial [Rails 5 API + ActiveAdmin + create-react-app on Heroku](https://blog.heroku.com/).
+This repo serves as a companion to the tutorial [A Rock Solid, Modern Web Stack—Rails 5 API + ActiveAdmin + Create React App on Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack).
 
-![A screenshot of the app in action](https://user-images.githubusercontent.com/449385/39874941-24d59b92-5467-11e8-8941-3e69589e70f5.png)
+![A screenshot of the app in action](https://heroku-blog-files.s3.amazonaws.com/posts/1526300703-site-final.jpg)
 
 ## Getting started
 
