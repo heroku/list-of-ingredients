@@ -29,6 +29,10 @@ heroku run rake db:seed
 heroku open
 ```
 
+Or you can click this button to deploy straight to Heroku from this repository:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Success!
 
 ## Suggestions, problems, typos?
