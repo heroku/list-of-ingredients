@@ -7,7 +7,7 @@ This repo serves as a companion to the tutorial [A Rock Solid, Modern Web Stackâ
 ## Getting started
 
 ``` shell
-git clone https://github.com/superhighfives/list-of-ingredients.git
+git clone https://github.com/heroku/list-of-ingredients.git
 cd list-of-ingredients
 bundle
 cd client
