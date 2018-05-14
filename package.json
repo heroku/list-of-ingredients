@@ -1,0 +1,13 @@
+{
+  "name": "list-of-ingredients",
+  "license": "MIT",
+  "engines": {
+    "node": "8.9.4",
+    "yarn": "1.6.0"
+  },
+  "scripts": {
+    "build": "cd client && yarn install && yarn build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
+  }
+}
