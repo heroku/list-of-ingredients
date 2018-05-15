@@ -45,6 +45,7 @@ group :production do
   gem 'pg'
 end
 
+# Activeadmin
 gem 'devise'
 gem 'activeadmin'
 
