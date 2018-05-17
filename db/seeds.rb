@@ -15,7 +15,7 @@ breakfast_smoothie = Drink.create(
 )
 breakfast_smoothie.ingredients.create(description: "1 banana")
 breakfast_smoothie.ingredients.create(description: "1 tbsp porridge oats")
-breakfast_smoothie.ingredients.create(description: "80g soft fruit (like mango or strawberries")
+breakfast_smoothie.ingredients.create(description: "80g soft fruit (like mango or strawberries)")
 breakfast_smoothie.ingredients.create(description: "150ml milk")
 breakfast_smoothie.ingredients.create(description: "1 tsp honey")
 breakfast_smoothie.ingredients.create(description: "1 tsp vanilla extract")
