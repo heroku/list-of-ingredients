@@ -14,12 +14,9 @@ class Home extends Component {
   }
 
   fetch (endpoint) {
-    return new Promise((resolve, reject) => {
-      window.fetch(endpoint)
-        .then(response => response.json())
-        .then(json => resolve(json))
-        .catch(error => reject(error))
-    })
+    return window.fetch(endpoint)
+      .then(response => response.json())
+      .catch(error => console.log(error))
   }
 
   getDrinks () {
@@ -71,7 +68,7 @@ class Home extends Component {
               </Segment.Group>
             }
             {drink.steps && <p>{drink.steps}</p>}
-            {drink.source && <Button basic tiny color='teal' href={drink.source}>Source</Button>}
+            {drink.source && <Button basic size='tiny' color='teal' href={drink.source}>Source</Button>}
           </Container>
         }
       </Container>
