@@ -2,6 +2,7 @@
   "name": "Rails + React + ActiveAdmin",
   "description": "An example of using Create React App with Rails 5 API and ActiveAdmin on Heroku",
   "repository": "https://github.com/heroku/list-of-ingredients",
+  "logo": "https://raw.githubusercontent.com/heroku/list-of-ingredients/master/app/assets/images/list-of-ingredients-logo.png",
   "keywords": [
     "rails",
     "react",
