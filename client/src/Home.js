@@ -22,7 +22,7 @@ class Home extends Component {
   getDrinks () {
     this.fetch('/api/drinks')
       .then(drinks => {
-        if (drinks.length) {
+        if (drinks) {
           this.setState({drinks: drinks})
           this.getDrink(drinks[0].id)
         } else {
