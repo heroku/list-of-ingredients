@@ -46,7 +46,7 @@ group :production do
 end
 
 # Activeadmin
-gem 'devise', '>= 4.6.0'
+gem 'devise', '>= 4.6.2'
 gem 'activeadmin'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
