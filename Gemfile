@@ -47,7 +47,7 @@ end
 
 # Activeadmin
 gem 'devise', '>= 4.6.0'
-gem 'activeadmin'
+gem 'activeadmin', '>= 3.2.0'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
